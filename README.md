@@ -2,7 +2,7 @@
 
 **Turn a video brief into an editable Blender project—with a script you can run again.**
 
-![Blender Video Tools: layered video timelines flowing into a cinematic ocean composite](assets/readme-cover.png)
+![Blender Video Tools: separate footage, keyframe, and audio layers connected to a finished ocean composite](assets/readme-cover.png)
 
 Blender Video Tools is a Codex plugin for producing and troubleshooting video with Blender Python, the Video Sequence Editor, and FFmpeg. Give Codex your footage and a brief; the skills guide it through source inspection, editorial choices, project construction, rendering, and review.
 
