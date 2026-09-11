@@ -1,5 +1,5 @@
 ---
-name: blender-video-video-review-delivery
+name: blender-video-review-delivery
 description: "Inspect rendered videos and editable Blender projects for visual, editorial, audio, packaging, and playback problems before delivery. Use for final QA, export checks, or project handoff."
 ---
 # Video Review & Delivery

@@ -1,4 +1,4 @@
 interface:
   display_name: "Blender VT Video Review & Delivery"
   short_description: "Review renders and deliver usable video projects"
-  default_prompt: "Use $blender-video-video-review-delivery to work with my supplied video assets."
+  default_prompt: "Use $blender-video-review-delivery to work with my supplied video assets."

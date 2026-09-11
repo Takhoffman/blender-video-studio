@@ -35,4 +35,4 @@ Keep a compact asset record alongside the edit plan: local path, intended role, 
 
 Check the selected asset's terms for both inclusion in the rendered video and redistribution of the raw file. Include allowed dependencies and attribution with the editable project; for restricted dependencies provide acquisition/relink instructions. Do not bundle third-party libraries into the plugin by default.
 
-Hand selected assets and unresolved dependencies back to [Production Workflow](../blender-video-production-workflow/SKILL.md). Verify their actual appearance or sound in a preview, then use [Video Review & Delivery](../blender-video-video-review-delivery/SKILL.md) to check the reopened project. A successful download is not completion.
+Hand selected assets and unresolved dependencies back to [Production Workflow](../blender-video-production-workflow/SKILL.md). Verify their actual appearance or sound in a preview, then use [Video Review & Delivery](../blender-video-review-delivery/SKILL.md) to check the reopened project. A successful download is not completion.

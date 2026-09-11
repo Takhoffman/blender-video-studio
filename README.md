@@ -47,7 +47,7 @@ All skills use the `blender-video-` prefix so they stay distinct from general Bl
 | [`blender-video-explainers-tutorials`](skills/blender-video-explainers-tutorials/SKILL.md) | Explanations and tutorials with an understandable progression. |
 | [`blender-video-promos-trailers`](skills/blender-video-promos-trailers/SKILL.md) | Promos and trailers built around a clear reveal or offer. |
 | [`blender-video-audio-sound-design`](skills/blender-video-audio-sound-design/SKILL.md) | Dialogue, music, ambience, transitions, and measured output levels. |
-| [`blender-video-video-review-delivery`](skills/blender-video-video-review-delivery/SKILL.md) | Visual review, export checks, project dependencies, and handoff. |
+| [`blender-video-review-delivery`](skills/blender-video-review-delivery/SKILL.md) | Visual review, export checks, project dependencies, and handoff. |
 
 For complete productions, use `blender-video-production-workflow` to coordinate stages. Asset sourcing provides provider references and selection guidance, not bundled APIs or asset libraries. Color finishing provides procedural guidance, not an automatic grading engine. Use one primary editorial skill. The technical, audio, and review skills support it; loading every format at once is unnecessary.
 

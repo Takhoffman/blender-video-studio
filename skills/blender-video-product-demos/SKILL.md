@@ -16,5 +16,5 @@ A polished demo can use a device frame or spatial animation when it clarifies co
 
 Handoff: final video, editable project, and the depicted workflow/source ranges. Review whether a first-time viewer can identify the benefit, follow the clicks, and read the result without pausing.
 
-Use [Blender Video](../blender-video-tools/SKILL.md) for version-aware execution, [Audio & Sound Design](../blender-video-audio-sound-design/SKILL.md) when mixing, and [Video Review & Delivery](../blender-video-video-review-delivery/SKILL.md) before handoff. Preserve the brief’s duration, style, format and source constraints; these are editorial guidance, not a fixed template. Follow source inspection → plan → scripted timeline → preview → inspection → revision → final render.
+Use [Blender Video](../blender-video-tools/SKILL.md) for version-aware execution, [Audio & Sound Design](../blender-video-audio-sound-design/SKILL.md) when mixing, and [Video Review & Delivery](../blender-video-review-delivery/SKILL.md) before handoff. Preserve the brief’s duration, style, format and source constraints; these are editorial guidance, not a fixed template. Follow source inspection → plan → scripted timeline → preview → inspection → revision → final render.
 

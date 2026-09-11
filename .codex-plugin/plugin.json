@@ -1,6 +1,6 @@
 {
   "name": "blender-video-studio",
-  "version": "0.1.0+codex.20260911060545",
+  "version": "0.1.0+codex.20260911060621",
   "description": "Version-aware Blender production with lifecycle coordination, editing, color finishing, audio, and delivery review.",
   "author": {
     "name": "Local developer"

@@ -14,4 +14,4 @@ Resolve the primary viewer outcome from the supplied brief, then use the corresp
 
 Treat cinematic, fast-paced, vertical, and low-effort as parameters, not separate video types. Honor a requested duration; do not impose a 15–45 second format universally. Choose aspect ratio around source composition and destination rather than automatically cropping every asset to 9:16.
 
-For all types use [Blender Video](../blender-video-tools/SKILL.md) for technical construction, [Audio & Sound Design](../blender-video-audio-sound-design/SKILL.md) for mixing, and [Video Review & Delivery](../blender-video-video-review-delivery/SKILL.md) for review and handoff. A request for a mechanical conversion needs only the technical workflow.
+For all types use [Blender Video](../blender-video-tools/SKILL.md) for technical construction, [Audio & Sound Design](../blender-video-audio-sound-design/SKILL.md) for mixing, and [Video Review & Delivery](../blender-video-review-delivery/SKILL.md) for review and handoff. A request for a mechanical conversion needs only the technical workflow.

@@ -21,7 +21,7 @@ Keep a compact production record alongside the build script or existing edit pla
 | Graphics and 3D | Add elements serving the brief. Keep text and graphics editable and verify composition, timing, and readability in context. Use the technical skill for scenes, compositor, and tracking. |
 | Color and finishing | Use [Color & Finishing](../blender-video-color-finishing/SKILL.md) for shot matching and output color checks. Already consistent footage may need no additional grade. |
 | Sound | Use [Audio & Sound Design](../blender-video-audio-sound-design/SKILL.md) for dialogue, music, effects, and mixing. Record listening separately from measurements. |
-| Review and delivery | Use [Video Review & Delivery](../blender-video-video-review-delivery/SKILL.md) for final media checks, project reopening, dependencies, and handoff. |
+| Review and delivery | Use [Video Review & Delivery](../blender-video-review-delivery/SKILL.md) for final media checks, project reopening, dependencies, and handoff. |
 
 Stages can overlap. Establish the color pipeline before expensive 3D rendering; settle major cuts before detailed shot matching and caption timing. Preview a representative difficult shot early to catch unsupported features or compositing problems.
 

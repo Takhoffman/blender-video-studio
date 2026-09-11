@@ -16,5 +16,5 @@ Prioritize intelligible speech. Use gentle cleanup and level control; strong den
 
 Handoff: final clip, editable project, caption file when applicable, and source ranges. Check the edit against the original meaning, caption accuracy and synchronization before delivery.
 
-Use [Blender Video](../blender-video-tools/SKILL.md) for version-aware execution, [Audio & Sound Design](../blender-video-audio-sound-design/SKILL.md) when mixing, and [Video Review & Delivery](../blender-video-video-review-delivery/SKILL.md) before handoff. Preserve the brief’s duration, style, format and source constraints; these are editorial guidance, not a fixed template. Follow source inspection → plan → scripted timeline → preview → inspection → revision → final render.
+Use [Blender Video](../blender-video-tools/SKILL.md) for version-aware execution, [Audio & Sound Design](../blender-video-audio-sound-design/SKILL.md) when mixing, and [Video Review & Delivery](../blender-video-review-delivery/SKILL.md) before handoff. Preserve the brief’s duration, style, format and source constraints; these are editorial guidance, not a fixed template. Follow source inspection → plan → scripted timeline → preview → inspection → revision → final render.
 
