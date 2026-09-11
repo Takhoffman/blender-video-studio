@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-11",
+  "platform": "macOS arm64",
+  "otio": "0.18.1",
+  "python": "3.11.15",
+  "blender": {
+    "4.5.13 LTS": [
+      "import/export/reopen",
+      "six frame comparisons pixel-identical",
+      "PCM audio comparison sample-identical",
+      "unsupported title rejection"
+    ],
+    "5.0.1": [
+      "import/reopen/re-export ranges match"
+    ],
+    "5.2.1 LTS": [
+      "import/reopen/re-export ranges match"
+    ]
+  },
+  "resolve": {
+    "status": "not yet tested"
+  },
+  "limitations": [
+    "No Resolve round trip yet",
+    "No listening test",
+    "Cuts-only synthetic fixture; not full feature certification"
+  ]
+}

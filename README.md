@@ -30,13 +30,14 @@ Or ask for a specific job:
 
 These are workflows the agent can carry out using Blender, not prebuilt video templates. Asset quality, the brief, available tools, and review all affect the result.
 
-## Twelve focused skills
+## Thirteen focused skills
 
 All skills use the `blender-video-` prefix so they stay distinct from general Blender modeling or animation skills.
 
 | Skill | What it handles |
 | --- | --- |
 | [`blender-video-production-workflow`](skills/blender-video-production-workflow/SKILL.md) | Coordinates stages, evidence, unfinished work, and specialist skills. |
+| [`blender-video-interchange`](skills/blender-video-interchange/SKILL.md) | Cuts-only OTIO import/export scripts and editor handoff checks. |
 | [`blender-video-asset-sourcing`](skills/blender-video-asset-sourcing/SKILL.md) | Finds and prepares footage, fonts, sound, graphics, and 3D assets with provenance. |
 | [`blender-video-color-finishing`](skills/blender-video-color-finishing/SKILL.md) | Exposure and white balance, shot matching, grading, and output color checks. |
 | [`blender-video-tools`](skills/blender-video-tools/SKILL.md) | Python/VSE construction, tool selection, version checks, rendering, and editor troubleshooting. |
@@ -83,7 +84,9 @@ A practical example: Blender 5.x can contain a valid edit while a workspace disp
 
 ## What is included—and what is not
 
-The executable helpers are deliberately small:
+The executable helpers include a small compatibility layer and a cuts-only OTIO bridge. The bridge uses a separate Python environment and requires receiving-editor verification; it is not a lossless project converter.
+
+The Blender compatibility helpers are:
 
 - [`probe_version.py`](skills/blender-video-tools/scripts/probe_version.py) reports the installed Blender version and relevant API capabilities.
 - [`vse_compat.py`](skills/blender-video-tools/scripts/vse_compat.py) adapts strip collections, effect timing and inputs, and editor workspace setup.
@@ -116,7 +119,7 @@ Use a fresh output directory. Check the generated `report.json` and inspect `pre
 
 ```text
 .codex-plugin/plugin.json   Plugin manifest and UI metadata
-skills/                    Twelve skills, supporting references, and helpers
+skills/                    Thirteen skills, supporting references, and helpers
 assets/                    Plugin icon and README artwork
 ```
 

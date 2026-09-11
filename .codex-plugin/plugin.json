@@ -1,6 +1,6 @@
 {
   "name": "blender-video-studio",
-  "version": "0.1.0+codex.20260911060621",
+  "version": "0.1.0+codex.20260911063147",
   "description": "Version-aware Blender production with lifecycle coordination, editing, color finishing, audio, and delivery review.",
   "author": {
     "name": "Local developer"
@@ -9,7 +9,7 @@
   "interface": {
     "displayName": "Blender Video Studio",
     "shortDescription": "Script, render, and review editable Blender videos.",
-    "longDescription": "Twelve focused skills for reproducible Blender video work: production coordination, asset sourcing, technical construction, social routing, five editorial formats, color finishing, audio design, and final review. Branch guidance covers 4.x and Blender 5.0\u20135.2 with explicit tested-version records.",
+    "longDescription": "Thirteen focused skills for reproducible Blender video work: production coordination, asset sourcing, cuts-only OTIO interchange, technical construction, social routing, five editorial formats, color finishing, audio design, and final review. Branch guidance covers 4.x and Blender 5.0\u20135.2 with explicit tested-version records.",
     "developerName": "Local developer",
     "category": "Productivity",
     "capabilities": [],
