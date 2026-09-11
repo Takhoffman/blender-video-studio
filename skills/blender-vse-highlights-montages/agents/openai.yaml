@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender VT Highlights & Montages"
+  short_description: "Create clear, polished highlights & montages videos"
+  default_prompt: "Use $blender-vse-highlights-montages to work with my supplied video assets."

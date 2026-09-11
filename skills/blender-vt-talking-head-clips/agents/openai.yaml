@@ -1,4 +1,0 @@
-interface:
-  display_name: "Blender VT Talking-head Clips"
-  short_description: "Create clear, polished talking-head clips videos"
-  default_prompt: "Use $blender-vt-talking-head-clips to work with my supplied video assets."

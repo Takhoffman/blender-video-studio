@@ -1,15 +1,15 @@
 {
-  "name": "blender-video-tools",
-  "version": "0.1.0+codex.20260911041112",
-  "description": "Version-aware Blender production with highlights, demos, spoken clips, explainers, promos, audio, and delivery review.",
+  "name": "blender-vse",
+  "version": "0.1.0+codex.20260911055055",
+  "description": "Version-aware Blender production with lifecycle coordination, editing, color finishing, audio, and delivery review.",
   "author": {
     "name": "Local developer"
   },
   "skills": "./skills/",
   "interface": {
-    "displayName": "Blender Video Tools",
+    "displayName": "Blender VSE",
     "shortDescription": "Script, render, and review editable Blender videos.",
-    "longDescription": "Nine focused skills for reproducible Blender video work: technical production, social routing, five editorial formats, audio design, and final review. Branch guidance covers 4.x and Blender 5.0\u20135.2 with explicit tested-version records.",
+    "longDescription": "Twelve focused skills for reproducible Blender video work: production coordination, asset sourcing, technical construction, social routing, five editorial formats, color finishing, audio design, and final review. Branch guidance covers 4.x and Blender 5.0\u20135.2 with explicit tested-version records.",
     "developerName": "Local developer",
     "category": "Productivity",
     "capabilities": [],
