@@ -1,0 +1,70 @@
+{
+  "tested_on": "2026-09-11",
+  "platform": "macOS arm64",
+  "scope": "Synthetic VSE construction, save/reopen, visible rendered text, evaluated opacity at two frames, two-input GAMMA_CROSS construction. Workspace binding checked when API exists. Not full API coverage; transition pixels are not asserted.",
+  "results": [
+    {
+      "version": "4.5.13 LTS",
+      "executable": "/Applications/Blender 4.5 LTS.app/Contents/MacOS/Blender",
+      "strips": 5,
+      "animation_values_verified": true,
+      "two_input_effect_verified": true,
+      "visible_text_verified": true,
+      "saved_reopened": true,
+      "workspace_link_verified": true,
+      "effect_parameters": [
+        "name",
+        "type",
+        "channel",
+        "frame_start",
+        "frame_end",
+        "input1",
+        "input2",
+        "sequence"
+      ],
+      "rendered": "/private/tmp/blender45-showcase-test/preview.png"
+    },
+    {
+      "version": "5.0.1",
+      "executable": "/Applications/Blender 5.0.app/Contents/MacOS/Blender",
+      "strips": 5,
+      "animation_values_verified": true,
+      "two_input_effect_verified": true,
+      "visible_text_verified": true,
+      "saved_reopened": true,
+      "workspace_link_verified": true,
+      "effect_parameters": [
+        "name",
+        "type",
+        "channel",
+        "frame_start",
+        "length",
+        "input1",
+        "input2",
+        "sequence"
+      ],
+      "rendered": "/private/tmp/blender50-showcase-regression/preview.png"
+    },
+    {
+      "version": "5.2.1 LTS",
+      "executable": "/Applications/Blender.app/Contents/MacOS/Blender",
+      "strips": 5,
+      "animation_values_verified": true,
+      "two_input_effect_verified": true,
+      "visible_text_verified": true,
+      "saved_reopened": true,
+      "workspace_link_verified": true,
+      "effect_parameters": [
+        "name",
+        "type",
+        "channel",
+        "frame_start",
+        "length",
+        "input1",
+        "input2",
+        "sequence"
+      ],
+      "rendered": "/private/tmp/blender52-showcase-regression/preview.png"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender VT Social Video Edit"
+  short_description: "Shape footage into polished social videos"
+  default_prompt: "Use $blender-vt-social-video-edit to help me edit the supplied footage."

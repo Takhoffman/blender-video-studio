@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender VT Explainers & Tutorials"
+  short_description: "Create clear, polished explainers & tutorials videos"
+  default_prompt: "Use $blender-vt-explainers-tutorials to work with my supplied video assets."

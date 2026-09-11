@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender VT Audio & Sound Design"
+  short_description: "Mix clear dialogue, music, and synchronized effects"
+  default_prompt: "Use $blender-vt-audio-sound-design to work with my supplied video assets."
