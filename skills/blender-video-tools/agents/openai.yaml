@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender VT Video"
+  short_description: "Version-aware Blender editing and rendering"
+  default_prompt: "Use $blender-video-tools to help me edit the supplied footage."

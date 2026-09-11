@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender VT Promos & Trailers"
+  short_description: "Create clear, polished promos & trailers videos"
+  default_prompt: "Use $blender-video-promos-trailers to work with my supplied video assets."

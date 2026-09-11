@@ -1,4 +1,0 @@
-interface:
-  display_name: "Blender VT Product Demos"
-  short_description: "Create clear, polished product demos videos"
-  default_prompt: "Use $blender-vse-product-demos to work with my supplied video assets."
