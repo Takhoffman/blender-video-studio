@@ -94,17 +94,56 @@ The Blender compatibility helpers are:
 
 Automatic transcription, word alignment, a reusable motion-template library, proxy management, and resumable rendering are **not shipped implementations**. Some skills guide related work, but the agent must implement or connect the necessary tooling for the task. This repository does not include stock footage, licensed music libraries, Blender, or a rendering backend.
 
-## Install and develop locally
+## Install
 
-You need Codex with plugin support, an installed Blender executable, and FFmpeg/ffprobe for the media operations your task uses. Python helpers that import `bpy` run **inside Blender**. Project fonts and other external assets must also be available or packaged.
+You need Codex with plugin support. To produce videos, install Blender and FFmpeg/ffprobe separately; this plugin does not bundle them. Python helpers that import `bpy` run inside Blender. Fonts and other project assets must also be available or packaged.
 
-This source folder is registered in the author's local Codex marketplace as `local-workspace`. On that configured machine, installation is:
+### Codex desktop app
+
+1. Open the plugin marketplace controls and choose **Add plugin marketplace**.
+2. Fill in the dialog:
+
+   | Field | Value |
+   | --- | --- |
+   | Source | `Takhoffman/blender-video-studio` |
+   | Git ref | `main` |
+   | Sparse paths | Leave blank |
+
+3. Click **Add marketplace**.
+4. Choose the **Blender Video Studio** marketplace, open **Blender Video Studio**, and install it.
+5. Start a new Codex task to pick up the skills. If the marketplace does not appear, restart the app and check the plugin directory again.
+
+### Codex CLI
+
+With a Codex CLI that exposes `codex plugin`:
 
 ```sh
-codex plugin add blender-video-studio@local-workspace
+codex plugin marketplace add Takhoffman/blender-video-studio --ref main
+codex plugin add blender-video-studio@blender-video-studio
+codex plugin list --marketplace blender-video-studio --json
 ```
 
-That marketplace name is local configuration, not a public registry. Cloning this repository on another machine does not register or install it automatically; add it through that machine's Codex plugin marketplace workflow. Start a new task after installation or updates so the skills are picked up.
+The selector is `plugin-name@marketplace-name`; both names are `blender-video-studio` in this repository. The older `@local-workspace` command referred to the author's private local setup and is not needed for this public marketplace.
+
+### Verify and try it
+
+The CLI listing should identify `blender-video-studio` as installed. In a new task, try:
+
+```text
+Use $blender-video-tools to inspect my installed Blender version and check
+whether Blender, FFmpeg, and ffprobe are available. Report what is available
+before creating a video.
+```
+
+Then use a brief from [Start with a brief](#start-with-a-brief). Installing the plugin does not establish that your Blender executable or media tools are configured correctly.
+
+### Sources and verification scope
+
+The marketplace format and Git-source registration follow [OpenAI's plugin packaging documentation](https://developers.openai.com/plugins/build/plugins#add-a-marketplace-from-the-cli). The catalog is [`.agents/plugins/marketplace.json`](.agents/plugins/marketplace.json); it points to the plugin at the repository root. Leave sparse paths blank so the skills and assets are fetched together.
+
+The CLI syntax was checked against `codex-cli 0.150.1` (`codex plugin marketplace add --help`, `codex plugin add --help`, and `codex plugin list --help`). The desktop field labels match the Add plugin marketplace dialog; the complete desktop click-through has not been tested. Blender runtime test coverage is recorded separately in [Blender compatibility](#blender-compatibility).
+
+## Develop locally
 
 From the repository root, a manual smoke test looks like:
 
@@ -118,6 +157,7 @@ blender --background --factory-startup --python-exit-code 1 \
 Use a fresh output directory. Check the generated `report.json` and inspect `preview.png`; a successful exit code alone is not visual verification. Substitute the exact Blender executable you intend to use.
 
 ```text
+.agents/plugins/marketplace.json  Public marketplace catalog
 .codex-plugin/plugin.json   Plugin manifest and UI metadata
 skills/                    Thirteen skills, supporting references, and helpers
 assets/                    Plugin icon and README artwork

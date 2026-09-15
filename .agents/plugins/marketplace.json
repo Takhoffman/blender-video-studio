@@ -1,0 +1,20 @@
+{
+  "name": "blender-video-studio",
+  "interface": {
+    "displayName": "Blender Video Studio"
+  },
+  "plugins": [
+    {
+      "name": "blender-video-studio",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
