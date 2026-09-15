@@ -143,6 +143,8 @@ The marketplace format and Git-source registration follow [OpenAI's plugin packa
 
 The CLI syntax was checked against `codex-cli 0.150.1` (`codex plugin marketplace add --help`, `codex plugin add --help`, and `codex plugin list --help`). The desktop field labels match the Add plugin marketplace dialog; the complete desktop click-through has not been tested. Blender runtime test coverage is recorded separately in [Blender compatibility](#blender-compatibility).
 
+Verification on 2026-09-15: the plugin manifest validator passed, and the exact public `marketplace add` command above succeeded. The fetched GitHub snapshot resolved the plugin manifest, all 13 skill files, and its icon assets. Full installation and the CLI listing were not verified end to end: an unrelated stale marketplace in the test machine's configuration blocked listing. These checks verify packaging and marketplace registration, not video rendering.
+
 ## Develop locally
 
 From the repository root, a manual smoke test looks like:
